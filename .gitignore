@@ -1,0 +1,90 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ─── Virtual Environments ────────────────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+# IMPORTANT: Never commit API keys or credentials
+.env
+*.env
+!.env.example
+
+# ─── IDE & Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Generated Plans (user data — keep sample only) ──────────────────────────
+plans/
+!plans/sample_nutrition_plan_Priya_Patel.md
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+*.log
+logs/
+*.out
+
+# ─── Testing ─────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ─── Distribution ────────────────────────────────────────────────────────────
+*.pyc
+*.pyo
+*.pyd
+*.spec
+.Python
+
+# ─── Jupyter Notebooks ───────────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ─── OS generated ────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ─── Temporary files ─────────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.orig
+tmp/
+temp/
